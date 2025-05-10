@@ -1,7 +1,7 @@
 <h1 align="center">Road Rush Rentals</h1>
  
 <p align = "center">
-<img height="300" width="350" src = "Road Rush Rentals/images/logo.png.jpg" alt = "logo">
+<img height="200" width="200" src = "Road Rush Rentals/images/logo.png.jpg" alt = "logo">
 </p>
  
 <br>
