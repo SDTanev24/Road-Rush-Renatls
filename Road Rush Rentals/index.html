@@ -1,44 +1,45 @@
-<!DOCTYPE html>A
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rent A Car Bulgaria</title>
+  <title>Rent A Car Bulgaria | Road Rush Rentals</title>
   <link rel="stylesheet" href="style/index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <h1>Rent A Car Bulgaria</h1>
-    <p>Travel free. Travel in style.</p>
+  <header class="sticky-header">
     <a href="index.html">
-  <img src="images/logo.png.jpg" alt="Road Rush Rentals Logo" style="height: 60px;">
-  </a>
-
+      <img src="images/logo.png.jpg" alt="Road Rush Rentals Logo" class="logo">
+    </a>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="Car.html">Cars</a>
+      <a href="Reservation.html">Reservation</a>
+      <a href="About.html">About</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
   </header>
 
-  <nav>
-    <a href="#">Home</a>
-    <a href="Car.html">Cars</a>
-    <a href="Reservation.html">Reservation</a>
-    <a href="About.html">About</a>
-    <a href="Contact.html">Contact</a>
-  </nav>
-
   <section class="hero">
-    <h1>Choose your car today!</h1>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Choose Your Car Today</h1>
+      <p>Travel free. Travel in style.</p>
+      <a href="Car.html" class="btn">View Cars</a>
+    </div>
   </section>
 
-  <div class="container">
+  <section class="container" data-aos="fade-up">
     <h2>Popular Cars</h2>
     <div class="cars">
       <div class="car">
-        <img src="images/mercedes.png" alt="Mercedes">
+        <img src="images/mercedes.png" alt="Mercedes CLS 63 AMG">
         <h3>Mercedes CLS 63 AMG</h3>
         <p>Comfort and style for every journey.</p>
       </div>
       <div class="car">
-        <img src="images/bmw.png" alt="BMW">
+        <img src="images/bmw.png" alt="BMW X5">
         <h3>BMW X5</h3>
         <p>Power and space for your adventures.</p>
       </div>
@@ -48,14 +49,45 @@
         <p>Perfect for high speeds.</p>
       </div>
     </div>
+  </section>
 
-    <h2 style="margin-top: 3em;">Our Offices</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2922.646947469992!2d23.3218676!3d42.6977085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa857e4f0f8d2f%3A0x5b0efb3d5a08875!2sSofia%2C%20Bulgaria!5e0!3m2!1sen!2sbg!4v1614951585914!5m2!1sen!2sbg"></iframe>
-  </div>
+  <section class="featured-car" data-aos="fade-right">
+    <h2>🚗 Featured Car of the Month</h2>
+    <div class="car-feature">
+      <img src="images/BMW 3 Series.jpg" alt="BMW 3 Series">
+      <div>
+        <h3>BMW 3 Series</h3>
+        <p>Sporty yet refined. The BMW 3 Series delivers an iconic driving experience with unmatched comfort. Perfect for city escapes or countryside getaways.</p>
+        <a href="Reservation.html" class="btn">Reserve Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" data-aos="fade-up">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-list">
+      <div class="testimonial">
+        <p>"Amazing service and great selection of cars. Will definitely rent again!"</p>
+        <strong>– Maria P.</strong>
+      </div>
+      <div class="testimonial">
+        <p>"The BMW was spotless and the whole process was seamless. Highly recommend."</p>
+        <strong>– Ivan D.</strong>
+      </div>
+    </div>
+  </section>
 
   <footer>
-    &copy; 2025 Rent A Car Bulgaria | All rights reserved.
+    <p>© 2025 Road Rush Rentals. All rights reserved.</p>
   </footer>
 
+  <a href="Contact.html" class="chat-icon" title="Chat with us">
+    💬
+  </a>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
