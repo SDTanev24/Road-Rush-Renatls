@@ -39,15 +39,15 @@ Your mission? Navigate puzzles and road-savvy scenarios to unlock the lost fleet
  
 ## 📥 Installation
 ```
-You can download our project by using the green "Code" button.
+You can download our project by using the green "Code" button in GitHub.
  
 Or by pasting the following code in your CMD:
-https://github.com/SDTanev24/Road-Rush-Renatls.git
+git clone https://github.com/SDTanev24/Road-Rush-Renatls.git
 ```
  
 ## ⚙ Website Access
  
-*You can access our website by pasting this link into your browser.*
+*You can access our repository by pasting this link into your browser.*
 ```
 https://github.com/SDTanev24/Road-Rush-Renatls.git
 ```
