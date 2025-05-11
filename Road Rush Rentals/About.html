@@ -3,30 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rent A Car Bulgaria - Home</title>
+  <title>Road Rush | About</title>
   <link rel="stylesheet" href="style/index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <h1>Rent A Car Bulgaria</h1>
-    <p>Travel free. Travel in style.</p>
-    <a href="index.html">
-    <img src="images/logo.png.jpg" alt="Road Rush Rentals Logo" style="height: 60px;">
-    </a>
-  </header>
-
+<header class="sticky-header">
+  <a href="index.html"><img src="images/logo.png.jpg" alt="Road Rush Rentals Logo" class="logo"></a>
   <nav>
     <a href="index.html">Home</a>
     <a href="Car.html">Cars</a>
     <a href="Reservation.html">Reservation</a>
-    <a href="About.html">About</a>
+    <a href="About.html" class="active">About</a>
     <a href="Contact.html">Contact</a>
   </nav>
+</header>
 
-  <section class="hero">
-    <h1>Choose your car today!</h1>
-  </section>
+<section class="hero">
+  <div class="hero-content" data-aos="fade-up">
+    <h1>About Us</h1>
+    <p>Road Rush Rentals has been providing luxury and reliable car rentals across Bulgaria since 2010. Our mission is simple — comfort, safety, and style for every customer.</p>
+  </div>
+</section>
 
   <div class="container">
     <section class="intro">
@@ -60,10 +59,14 @@
       <p>"The booking process was so easy and the car was in perfect condition. I had a great experience!" - <strong>Maria, Sofia</strong></p>
     </section>
   </div>
+<footer>
+  <p>© 2025 Road Rush Rentals. All rights reserved.</p>
+</footer>
 
-  <footer>
-    &copy; 2025 Rent A Car Bulgaria | All rights reserved.
-  </footer>
+<a href="Contact.html" class="chat-icon" title="Chat with us">💬</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 
 </body>
 </html>
