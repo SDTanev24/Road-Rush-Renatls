@@ -7,9 +7,9 @@
 <br>
  
 <p align = "center">
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/">
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SDTanev24/Road-Rush-Renatls">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/SDTanev24/Road-Rush-Renatls">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/SDTanev24/Road-Rush-Renatls">
 </p> 
  
 ## 📋 Description
