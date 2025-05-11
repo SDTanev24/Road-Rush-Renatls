@@ -1,94 +1,107 @@
+/* General styles for the body */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #F8FAFC;
-  margin: 0;
-  padding: 0;
-  color: #333;
+  font-family: Arial, sans-serif; /* Use Arial font for text */
+  background-color: #F8FAFC; /* Light gray background */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  color: #333; /* Dark text for readability */
 }
 
+/* Header section styles */
 header {
-  background-color: #9AA6B2;
-  color: white;
-  text-align: center;
-  padding: 30px 10px;
+  background-color: #9AA6B2; /* Light gray-blue background */
+  color: white; /* White text */
+  text-align: center; /* Center align the header content */
+  padding: 30px 10px; /* Adequate padding for spacing */
 }
 
+/* Main heading in the header */
 header h1 {
-  font-size: 2.5rem;
+  font-size: 2.5rem; /* Larger font size for the heading */
 }
 
+/* Navigation styles */
 nav {
-  background-color: #BCCCDC;
-  text-align: center;
-  padding: 10px 0;
+  background-color: #BCCCDC; /* Lighter gray-blue background */
+  text-align: center; /* Center align the navigation links */
+  padding: 10px 0; /* Padding for spacing */
 }
 
+/* Styles for the navigation links */
 nav a {
-  color: #333;
-  text-decoration: none;
-  margin: 0 15px;
-  padding: 8px 16px;
-  font-size: 1rem;
+  color: #333; /* Dark text color */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 15px; /* Horizontal margin between links */
+  padding: 8px 16px; /* Padding inside the links */
+  font-size: 1rem; /* Font size for the links */
 }
 
+/* Hover effect for navigation links */
 nav a:hover {
-  background-color: #D9EAFD;
-  border-radius: 4px;
+  background-color: #D9EAFD; /* Light blue background on hover */
+  border-radius: 4px; /* Rounded corners for hover effect */
 }
 
+/* Reservation form container styles */
 .reservation-form {
-  max-width: 600px;
-  margin: 40px auto;
-  background-color: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  max-width: 600px; /* Limit the width of the form */
+  margin: 40px auto; /* Center the form with margin above and below */
+  background-color: white; /* White background for the form */
+  padding: 30px; /* Padding inside the form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
+/* Heading inside the reservation form */
 .reservation-form h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #9AA6B2;
+  text-align: center; /* Center the heading */
+  margin-bottom: 30px; /* Space below the heading */
+  color: #9AA6B2; /* Light gray-blue text color */
 }
 
+/* Label styling for form fields */
 form label {
-  display: block;
-  margin-bottom: 6px;
-  font-weight: bold;
+  display: block; /* Labels as block elements */
+  margin-bottom: 6px; /* Space below the label */
+  font-weight: bold; /* Bold text for labels */
 }
 
+/* Input and select field styling in the form */
 form input,
 form select {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #BCCCDC;
-  border-radius: 6px;
-  font-size: 1rem;
-  background-color: #F8FAFC;
+  width: 100%; /* Full width fields */
+  padding: 10px; /* Padding inside the fields */
+  margin-bottom: 20px; /* Space below each field */
+  border: 1px solid #BCCCDC; /* Light border color */
+  border-radius: 6px; /* Rounded corners for input fields */
+  font-size: 1rem; /* Font size for the fields */
+  background-color: #F8FAFC; /* Light gray background for fields */
 }
 
+/* Button styling inside the form */
 form button {
-  background-color: #9AA6B2;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-  width: 100%;
-  transition: background-color 0.3s ease;
+  background-color: #9AA6B2; /* Light gray-blue background */
+  color: white; /* White text */
+  padding: 12px 20px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 1rem; /* Font size for the button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  width: 100%; /* Full width button */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
 }
 
+/* Hover effect for the button */
 form button:hover {
-  background-color: #BCCCDC;
-  color: #333;
+  background-color: #BCCCDC; /* Lighter background on hover */
+  color: #333; /* Dark text color on hover */
 }
 
+/* Footer section styles */
 footer {
-  text-align: center;
-  background-color: #BCCCDC;
-  color: #333;
-  padding: 20px;
-  margin-top: 40px;
+  text-align: center; /* Center align footer text */
+  background-color: #BCCCDC; /* Lighter gray-blue background */
+  color: #333; /* Dark text color */
+  padding: 20px; /* Padding inside the footer */
+  margin-top: 40px; /* Margin above the footer */
 }

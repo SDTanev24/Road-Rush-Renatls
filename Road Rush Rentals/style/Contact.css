@@ -1,110 +1,110 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  background: #F8FAFC;
-  color: #333;
+  font-family: 'Segoe UI', sans-serif; /* Sets the font family for the entire page */
+  margin: 0; /* Removes default margin from the body */
+  background: #F8FAFC; /* Sets a light background color for the page */
+  color: #333; /* Sets the text color to dark gray */
 }
 
 header {
-  background: #9AA6B2;
-  color: white;
-  text-align: center;
-  padding: 1em 0;
+  background: #9AA6B2; /* Sets a light gray background color for the header */
+  color: white; /* Sets the text color in the header to white */
+  text-align: center; /* Centers the text in the header */
+  padding: 1em 0; /* Adds vertical padding to the header */
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 2.5rem; /* Sets the font size of the main header */
 }
 
 header p {
-  font-size: 1.1rem;
+  font-size: 1.1rem; /* Sets a slightly larger font size for the subheading */
 }
 
 nav {
-  background: #BCCCDC;
-  display: flex;
-  justify-content: center;
+  background: #BCCCDC; /* Sets a light gray-blue background color for the navigation bar */
+  display: flex; /* Makes the navigation a flex container */
+  justify-content: center; /* Centers the navigation items horizontally */
 }
 
 nav a {
-  color: #333;
-  padding: 1em;
-  text-decoration: none;
+  color: #333; /* Sets the color of the navigation links to dark gray */
+  padding: 1em; /* Adds padding around the navigation links */
+  text-decoration: none; /* Removes the underline from the links */
 }
 
 nav a:hover {
-  background: #D9EAFD;
+  background: #D9EAFD; /* Changes the background color of the links on hover */
 }
 
 .contact-info, .social-media {
-  max-width: 800px;
-  margin: 40px auto;
-  background-color: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  max-width: 800px; /* Sets a maximum width for these sections */
+  margin: 40px auto; /* Centers the sections horizontally and adds vertical margin */
+  background-color: white; /* Sets the background color to white */
+  padding: 30px; /* Adds padding inside the sections */
+  border-radius: 10px; /* Rounds the corners of the sections */
+  box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Adds a subtle shadow effect to the sections */
 }
 
 .contact-info h2,
 .social-media h2 {
-  text-align: center;
-  color: #9AA6B2;
-  margin-bottom: 20px;
+  text-align: center; /* Centers the headings */
+  color: #9AA6B2; /* Sets the color of the headings to light gray-blue */
+  margin-bottom: 20px; /* Adds space below the headings */
 }
 
 .contact-details {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+  display: grid; /* Uses grid layout for contact details */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Creates a responsive grid with a minimum width of 220px for each item */
+  gap: 20px; /* Adds space between grid items */
 }
 
 .contact-item {
-  background: #D9EAFD;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #D9EAFD; /* Sets a light blue background for each contact item */
+  padding: 20px; /* Adds padding inside each contact item */
+  border-radius: 8px; /* Rounds the corners of each contact item */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect to each contact item */
 }
 
 .contact-item h3 {
-  color: #9AA6B2;
-  margin-bottom: 10px;
+  color: #9AA6B2; /* Sets the color of the contact item heading */
+  margin-bottom: 10px; /* Adds space below the heading */
 }
 
 .contact-item p {
-  font-size: 1rem;
+  font-size: 1rem; /* Sets the font size for the contact item text */
 }
 
 .contact-item p a {
-  color: #333;
-  text-decoration: none;
+  color: #333; /* Sets the color of the links inside contact items to dark gray */
+  text-decoration: none; /* Removes the underline from the links */
 }
 
 .contact-item p a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Underlines the link text on hover */
 }
 
 .social-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 20px;
+  display: flex; /* Makes the social media links a flex container */
+  justify-content: center; /* Centers the social media links horizontally */
+  gap: 20px; /* Adds space between the social media icons */
+  flex-wrap: wrap; /* Allows the icons to wrap if necessary */
+  margin-top: 20px; /* Adds margin at the top of the social media section */
 }
 
 .social-icon img {
-  width: 40px;
-  height: 40px;
-  transition: transform 0.2s ease;
+  width: 40px; /* Sets the width of the social media icons */
+  height: 40px; /* Sets the height of the social media icons */
+  transition: transform 0.2s ease; /* Adds a smooth transition effect for the transform property */
 }
 
 .social-icon img:hover {
-  transform: scale(1.1);
+  transform: scale(1.1); /* Scales the social media icon up slightly on hover */
 }
 
 footer {
-  text-align: center;
-  background: #9AA6B2;
-  color: white;
-  padding: 20px;
-  margin-top: 40px;
+  text-align: center; /* Centers the text in the footer */
+  background: #9AA6B2; /* Sets the background color of the footer */
+  color: white; /* Sets the text color of the footer to white */
+  padding: 20px; /* Adds padding inside the footer */
+  margin-top: 40px; /* Adds space above the footer */
 }

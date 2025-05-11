@@ -1,71 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Reservation - Rent A Car Bulgaria</title>
-  <link rel="stylesheet" href="../style/Reservation.css">
+<!DOCTYPE html> <!-- Specifies that this is an HTML5 document -->
+<html lang="en"> <!-- Opens the HTML document and sets the language to English -->
+<head> <!-- Starts the head section of the document -->
+  <meta charset="UTF-8" /> <!-- Sets the character encoding to UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Ensures the page is responsive and scales on different devices -->
+  <title>Reservation - Rent A Car Bulgaria</title> <!-- Sets the title of the page for the browser tab -->
+  <link rel="stylesheet" href="../style/Reservation.css"> <!-- Links to an external CSS file for styling the page -->
 </head>
-<body>
+<body> <!-- Starts the body section of the webpage -->
 
-  <header>
-    <h1>Make a Reservation</h1>
-    <p>Book your car in just a few steps</p>
-    <a href="../index.html">
-    <img src="../images/logo.png.jpg" alt="Road Rush Rentals Logo" style="height: 60px;">
+  <header> <!-- Starts the header section of the page -->
+    <h1>Make a Reservation</h1> <!-- Main heading for the reservation page -->
+    <p>Book your car in just a few steps</p> <!-- Subheading to guide users on how to make a reservation -->
+    <a href="../index.html"> <!-- Link to the homepage -->
+      <img src="../images/logo.png.jpg" alt="Road Rush Rentals Logo" style="height: 60px;"> <!-- Logo image linked to the homepage with a specified height -->
     </a>
-  </header>
+  </header> <!-- Ends the header section -->
 
-  <nav>
-    <a href="../index.html">Home</a>
-    <a href="Car.html">Cars</a>
-    <a href="Reservation.html">Reservation</a>
-    <a href="About.html">About</a>
-    <a href="Contact.html">Contact</a>
-  </nav>
+  <nav> <!-- Starts the navigation section -->
+    <a href="../index.html">Home</a> <!-- Link to the homepage -->
+    <a href="Car.html">Cars</a> <!-- Link to the "Cars" page -->
+    <a href="Reservation.html">Reservation</a> <!-- Link to the "Reservation" page, indicating the current page -->
+    <a href="About.html">About</a> <!-- Link to the "About" page -->
+    <a href="Contact.html">Contact</a> <!-- Link to the "Contact" page -->
+  </nav> <!-- Ends the navigation section -->
 
-  <main class="reservation-form">
-    <h2>Reservation Details</h2>
-    <form action="#" method="post">
-      <label for="full-name">Full Name:</label>
-      <input type="text" id="full-name" name="full-name" required>
+  <main class="reservation-form"> <!-- Starts the main content area with a class for styling the reservation form -->
+    <h2>Reservation Details</h2> <!-- Subheading for the form section -->
+    <form action="#" method="post"> <!-- Starts the form with POST method (data will be sent to the server) -->
+      <label for="full-name">Full Name:</label> <!-- Label for the full name input field -->
+      <input type="text" id="full-name" name="full-name" required> <!-- Input field for the full name, required field -->
 
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required>
+      <label for="email">Email Address:</label> <!-- Label for the email input field -->
+      <input type="email" id="email" name="email" required> <!-- Input field for the email address, required field -->
 
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required>
+      <label for="phone">Phone Number:</label> <!-- Label for the phone number input field -->
+      <input type="tel" id="phone" name="phone" required> <!-- Input field for the phone number, required field -->
 
-      <label for="car">Select Car:</label>
-      <select id="car" name="car" required>
-        <option value="">-- Choose a car --</option>
-        <option>Audi A6</option>
-        <option>Toyota Corolla</option>
-        <option>Range Rover Evoque</option>
-        <option>Tesla Model 3</option>
-        <option>Ford Focus</option>
-        <option>Mercedes C-Class</option>
-        <option>Skoda Octavia</option>
-        <option>BMW 3 Series</option>
-        <option>Jeep Compass</option>
+      <label for="car">Select Car:</label> <!-- Label for the car selection dropdown -->
+      <select id="car" name="car" required> <!-- Dropdown menu for selecting a car, required field -->
+        <option value="">-- Choose a car --</option> <!-- Default option prompting the user to choose a car -->
+        <option>Audi A6</option> <!-- Option for Audi A6 -->
+        <option>Toyota Corolla</option> <!-- Option for Toyota Corolla -->
+        <option>Range Rover Evoque</option> <!-- Option for Range Rover Evoque -->
+        <option>Tesla Model 3</option> <!-- Option for Tesla Model 3 -->
+        <option>Ford Focus</option> <!-- Option for Ford Focus -->
+        <option>Mercedes C-Class</option> <!-- Option for Mercedes C-Class -->
+        <option>Skoda Octavia</option> <!-- Option for Skoda Octavia -->
+        <option>BMW 3 Series</option> <!-- Option for BMW 3 Series -->
+        <option>Jeep Compass</option> <!-- Option for Jeep Compass -->
       </select>
 
-      <label for="pickup-date">Pickup Date:</label>
-      <input type="date" id="pickup-date" name="pickup-date" required>
+      <label for="pickup-date">Pickup Date:</label> <!-- Label for the pickup date input field -->
+      <input type="date" id="pickup-date" name="pickup-date" required> <!-- Input field for selecting the pickup date, required field -->
 
-      <label for="return-date">Return Date:</label>
-      <input type="date" id="return-date" name="return-date" required>
+      <label for="return-date">Return Date:</label> <!-- Label for the return date input field -->
+      <input type="date" id="return-date" name="return-date" required> <!-- Input field for selecting the return date, required field -->
 
-      <label for="location">Pickup Location:</label>
-      <input type="text" id="location" name="location" required>
+      <label for="location">Pickup Location:</label> <!-- Label for the pickup location input field -->
+      <input type="text" id="location" name="location" required> <!-- Input field for the pickup location, required field -->
 
-      <button type="submit">Submit Reservation</button>
-    </form>
-  </main>
+      <button type="submit">Submit Reservation</button> <!-- Submit button to send the reservation form -->
+    </form> <!-- Ends the form -->
+  </main> <!-- Ends the main content section -->
 
-  <footer>
-    &copy; 2025 Rent A Car Bulgaria | All rights reserved.
-  </footer>
+  <footer> <!-- Starts the footer section -->
+    &copy; 2025 Rent A Car Bulgaria | All rights reserved. <!-- Copyright information for the website -->
+  </footer> <!-- Ends the footer section -->
 
-</body>
-</html>
+</body> <!-- Ends the body section -->
+</html> <!-- Ends the HTML document -->

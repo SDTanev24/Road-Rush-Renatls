@@ -1,193 +1,222 @@
+/* General styles for the body */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  background: #F8FAFC;
-  color: #333;
+  font-family: 'Segoe UI', sans-serif; /* Modern, clean font */
+  margin: 0; /* Remove default margin */
+  background: #F8FAFC; /* Light gray background */
+  color: #333; /* Dark text for readability */
 }
 
+/* Header section styles */
 header {
-  background: #9AA6B2;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em 2em;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  background: #9AA6B2; /* Light gray-blue background */
+  color: white; /* White text color */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the logo and navigation links */
+  align-items: center; /* Vertically center the items */
+  padding: 1em 2em; /* Spacing inside the header */
+  position: sticky; /* Make the header stick to the top when scrolling */
+  top: 0; /* Position at the top */
+  z-index: 1000; /* Keep header above other content */
 }
 
+/* Navigation link styles */
 nav a {
-  margin-left: 1.2em;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+  margin-left: 1.2em; /* Add space between links */
+  color: white; /* White text for links */
+  text-decoration: none; /* Remove underlines */
+  font-weight: bold; /* Bold text */
 }
 
+/* Hover and active states for navigation links */
 nav a:hover, nav a.active {
-  text-decoration: underline;
+  text-decoration: underline; /* Underline when hovered or active */
 }
 
+/* Logo styling */
 .logo {
-  height: 50px;
+  height: 50px; /* Set a fixed height for the logo */
 }
 
+/* Hero section styles */
 .hero {
-  background: url('https://plus.unsplash.com/premium_photo-1673886205989-24c637783c60?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2FyYWdlfGVufDB8fDB8fHww') center/cover no-repeat;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px 5px #000;
+  background: url('https://plus.unsplash.com/premium_photo-1673886205989-24c637783c60?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2FyYWdlfGVufDB8fDB8fHww') center/cover no-repeat; /* Background image, centered and covering area */
+  height: 400px; /* Set height of the hero section */
+  display: flex; /* Flexbox for centering the content */
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
+  text-align: center; /* Center align text */
+  color: white; /* White text */
+  text-shadow: 2px 2px 5px #000; /* Subtle shadow to enhance readability */
 }
 
+/* Hero content background and styling */
 .hero-content {
-  background: rgba(0,0,0,0.5);
-  padding: 2em;
-  border-radius: 10px;
+  background: rgba(0,0,0,0.5); /* Semi-transparent black background */
+  padding: 2em; /* Padding for spacing */
+  border-radius: 10px; /* Rounded corners */
 }
 
+/* Main heading inside the hero section */
 .hero h1 {
-  font-size: 3em;
-  margin: 0.2em 0;
+  font-size: 3em; /* Large font for the heading */
+  margin: 0.2em 0; /* Slight margin around the heading */
 }
 
+/* Button styles */
 .btn {
-  background: #9AA6B2;
-  color: white;
-  padding: 0.8em 2em;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-  transition: 0.3s ease;
+  background: #9AA6B2; /* Light gray-blue background */
+  color: white; /* White text color */
+  padding: 0.8em 2em; /* Comfortable padding for button */
+  text-decoration: none; /* Remove underline */
+  border-radius: 8px; /* Rounded corners */
+  font-weight: bold; /* Bold text */
+  transition: 0.3s ease; /* Smooth transition for hover effect */
 }
 
+/* Button hover effect */
 .btn:hover {
-  background: #BCCCDC;
+  background: #BCCCDC; /* Lighter background on hover */
 }
 
+/* Container for general content */
 .container {
-  padding: 3em 2em;
-  max-width: 1200px;
-  margin: auto;
+  padding: 3em 2em; /* Adequate padding inside the container */
+  max-width: 1200px; /* Limit the width */
+  margin: auto; /* Center the container */
 }
 
+/* Car listing grid styles */
 .cars {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2em;
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Auto-fit columns based on screen size */
+  gap: 2em; /* Space between grid items */
 }
 
+/* Individual car card styling */
 .car {
-  background: #D9EAFD;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  padding: 1.5em;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #D9EAFD; /* Light background for car cards */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Subtle shadow */
+  padding: 1.5em; /* Adequate padding inside each card */
+  text-align: center; /* Center text inside the card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
 
+/* Hover effect for car cards */
 .car:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transform: translateY(-5px); /* Lift the card up a bit */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Increase shadow on hover */
 }
 
+/* Image inside each car card */
 .car img {
-  width: 100%;
-  border-radius: 10px;
-  height: 160px;
-  object-fit: cover;
+  width: 100%; /* Full width of the card */
+  border-radius: 10px; /* Rounded corners for the image */
+  height: 160px; /* Fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the space without distortion */
 }
 
+/* Featured car section styling */
 .featured-car {
-  background: #BCCCDC;
-  padding: 3em 2em;
+  background: #BCCCDC; /* Lighter background for featured car */
+  padding: 3em 2em; /* Adequate padding */
 }
 
+/* Car feature section layout */
 .car-feature {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2em;
-  align-items: center;
+  display: flex; /* Flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  gap: 2em; /* Space between items */
+  align-items: center; /* Align items vertically */
 }
 
+/* Image styling for the car feature */
 .car-feature img {
-  max-width: 400px;
-  border-radius: 10px;
-  flex: 1;
+  max-width: 400px; /* Limit image width */
+  border-radius: 10px; /* Rounded corners */
+  flex: 1; /* Allow image to take up 1 portion of space */
 }
 
+/* Text content in car feature section */
 .car-feature div {
-  flex: 2;
+  flex: 2; /* Allow text to take up more space */
 }
 
+/* Testimonials section styles */
 .testimonials {
-  padding: 3em 2em;
-  background: #F0F4F8;
-  text-align: center;
+  padding: 3em 2em; /* Padding inside the testimonials section */
+  background: #F0F4F8; /* Light background color */
+  text-align: center; /* Center align text */
 }
 
+/* List of testimonials */
 .testimonial-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2em;
-  margin-top: 2em;
+  display: flex; /* Use flexbox for the testimonial cards */
+  flex-wrap: wrap; /* Allow cards to wrap */
+  justify-content: center; /* Center the cards */
+  gap: 2em; /* Space between testimonial cards */
+  margin-top: 2em; /* Space above the list */
 }
 
+/* Individual testimonial card */
 .testimonial {
-  max-width: 300px;
-  background: #D9EAFD;
-  padding: 1.5em;
-  border-radius: 10px;
-  font-style: italic;
+  max-width: 300px; /* Limit max width */
+  background: #D9EAFD; /* Light background for testimonials */
+  padding: 1.5em; /* Adequate padding */
+  border-radius: 10px; /* Rounded corners */
+  font-style: italic; /* Italicized text */
 }
 
+/* Footer section styles */
 footer {
-  background: #9AA6B2;
-  color: white;
-  text-align: center;
-  padding: 1em;
-  margin-top: 2em;
+  background: #9AA6B2; /* Background color same as header */
+  color: white; /* White text */
+  text-align: center; /* Center align the text */
+  padding: 1em; /* Padding inside the footer */
+  margin-top: 2em; /* Space above the footer */
 }
 
+/* Chat icon styling (fixed to the bottom right corner) */
 .chat-icon {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #9AA6B2;
-  color: white;
-  font-size: 1.5em;
-  padding: 0.6em;
-  border-radius: 50%;
-  text-decoration: none;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  z-index: 999;
+  position: fixed; /* Fix position to the bottom-right of the screen */
+  bottom: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+  background: #9AA6B2; /* Match header/footer color */
+  color: white; /* White icon color */
+  font-size: 1.5em; /* Larger font size */
+  padding: 0.6em; /* Padding for the icon */
+  border-radius: 50%; /* Circular shape */
+  text-decoration: none; /* Remove underline */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Shadow for depth */
+  z-index: 999; /* Ensure it's above other elements */
 }
+
+/* Locations section styles */
 .locations {
-  text-align: center;
-  padding: 3em 2em;
-  background: #F0F4F8;
+  text-align: center; /* Center align text */
+  padding: 3em 2em; /* Adequate padding */
+  background: #F0F4F8; /* Light background */
 }
 
+/* Locations heading styles */
 .locations h2 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
+  font-size: 2em; /* Larger font for the heading */
+  margin-bottom: 0.5em; /* Space below the heading */
 }
 
+/* Locations paragraph styles */
 .locations p {
-  margin: 0.3em 0;
-  font-size: 1.1em;
+  margin: 0.3em 0; /* Small margin between paragraphs */
+  font-size: 1.1em; /* Slightly larger font size */
 }
 
+/* Map container styling */
 .map-container {
-  margin-top: 2em;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  overflow: hidden;
+  margin-top: 2em; /* Space above the map */
+  max-width: 1000px; /* Limit max width of the map container */
+  margin-left: auto; /* Center map horizontally */
+  margin-right: auto; /* Center map horizontally */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 12px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow to maintain rounded corners */
 }
