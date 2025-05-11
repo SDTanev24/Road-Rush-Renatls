@@ -1,128 +1,154 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Road Rush | Cars</title>
-  <link rel="stylesheet" href="../style/index.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!DOCTYPE html> <!-- Specifies that this is an HTML5 document -->
+<html lang="en"> <!-- Opens the HTML document and sets the language to English -->
+<head> <!-- Starts the head section of the document -->
+  <meta charset="UTF-8" /> <!-- Sets the character encoding to UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Ensures the page is responsive and scales on different devices -->
+  <title>Road Rush | Cars</title> <!-- Sets the title that appears in the browser tab -->
+  <link rel="stylesheet" href="../style/index.css"> <!-- Links to an external CSS file for styling -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- Links to the AOS (Animate On Scroll) library for animations -->
 </head>
-<body>
+<body> <!-- Starts the body section of the webpage -->
 
-<header class="sticky-header">
-  <a href="../index.html"><img src="../images/logo.png.jpg" alt="Road Rush Rentals Logo" class="logo"></a>
-  <nav>
-    <a href="../index.html">Home</a>
-    <a href="Car.html" class="active">Cars</a>
-    <a href="Reservation.html">Reservation</a>
-    <a href="About.html">About</a>
-    <a href="Contact.html">Contact</a>
-  </nav>
-</header>
+<header class="sticky-header"> <!-- Starts the header section with a sticky class -->
+  <a href="../index.html"><img src="../images/logo.png.jpg" alt="Road Rush Rentals Logo" class="logo"></a> <!-- Links back to the homepage with the logo image -->
+  <nav> <!-- Starts the navigation section -->
+    <a href="../index.html">Home</a> <!-- Link to the homepage -->
+    <a href="Car.html" class="active">Cars</a> <!-- Link to the "Cars" page with an "active" class indicating it is the current page -->
+    <a href="Reservation.html">Reservation</a> <!-- Link to the "Reservation" page -->
+    <a href="About.html">About</a> <!-- Link to the "About" page -->
+    <a href="Contact.html">Contact</a> <!-- Link to the "Contact" page -->
+  </nav> <!-- Ends the navigation section -->
+</header> <!-- Ends the header section -->
 
-<section class="hero">
-  <div class="hero-content" data-aos="fade-up">
-    <h1>Our Cars</h1>
-    <p>Explore our full fleet of premium vehicles. From rugged SUVs to elegant sedans, we have the right car for every journey.</p>
-  </div>
-</section>
-  <div class="container">
-    <h2>Top Rental Deals</h2>
-    <div class="cars">
-      <div class="car">
-        <img src="../images/audi a6.avif" alt="Audi A6">
-        <h3>Audi A6</h3>
-        <p>Business luxury for every occasion.</p>
-        <p><strong>€75/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-      <div class="car">
-        <img src="../images/toyota corolla.jpg" alt="Toyota Corolla">
-        <h3>Toyota Corolla</h3>
-        <p>Economical and reliable for city travel.</p>
-        <p><strong>€40/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-      <div class="car">
-        <img src="../images/range rover.avif" alt="Range Rover Evoque">
-        <h3>Range Rover Evoque</h3>
-        <p>Premium SUV experience.</p>
-        <p><strong>€95/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-      <div class="car">
-        <img src="../images/tesla model 3.jpg" alt="Tesla Model 3">
-        <h3>Tesla Model 3</h3>
-        <p>Silent and electric. Drive the future.</p>
-        <p><strong>€85/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-      <div class="car">
-        <img src="../images/ford focus.jpg" alt="Ford Focus">
-        <h3>Ford Focus</h3>
-        <p>Perfect for both city and countryside.</p>
-        <p><strong>€45/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-      <div class="car">
-        <img src="../images/Mercedes C-Class.jpg" alt="Mercedes C-Class">
-        <h3>Mercedes C-Class</h3>
-        <p>Comfortable and elegant.</p>
-        <p><strong>€80/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-      <div class="car">
-        <img src="../images/Skoda Octavia.jpg" alt="Skoda Octavia">
-        <h3>Skoda Octavia</h3>
-        <p>Smart and efficient family car.</p>
-        <p><strong>€50/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-      <div class="car">
-        <img src="../images/BMW 3 Series.jpg" alt="BMW 3 Series">
-        <h3>BMW 3 Series</h3>
-        <p>Sporty, stylish and responsive.</p>
-        <p><strong>€88/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-      <div class="car">
-        <img src="../images/Jeep compass.jpg" alt="Jeep Compass">
-        <h3>Jeep Compass</h3>
-        <p>Built for adventure and off-road trips.</p>
-        <p><strong>€70/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-      <div class="car">
-        <img src="../images/volvo xc90.avif" alt="Volvo XC90">
-        <h3>Volvo XC90</h3>
-        <p>Safe and luxurious family SUV.</p>
-        <p><strong>€100/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-      <div class="car">
-        <img src="../images/mazda 6.jpg" alt="Mazda 6">
-        <h3>Mazda 6</h3>
-        <p>Sporty, sleek and fun to drive.</p>
-        <p><strong>€60/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-      <div class="car">
-        <img src="../images/peugeot 3008.jpg" alt="Peugeot 3008">
-        <h3>Peugeot 3008</h3>
-        <p>Stylish SUV with great fuel efficiency.</p>
-        <p><strong>€65/day</strong></p>
-        <a href="Reservation.html" class="btn">Rent Now</a>
-      </div>
-    </div>
-  </div>
-<footer>
-  <p>© 2025 Road Rush Rentals. All rights reserved.</p>
-</footer>
+<section class="hero"> <!-- Starts the hero section, typically used for the main introduction area -->
+  <div class="hero-content" data-aos="fade-up"> <!-- Container for the hero content with a fade-up animation -->
+    <h1>Our Cars</h1> <!-- Main heading for the "Cars" section -->
+    <p>Explore our full fleet of premium vehicles. From rugged SUVs to elegant sedans, we have the right car for every journey.</p> <!-- Description paragraph for the cars available -->
+  </div> <!-- Ends the hero content -->
+</section> <!-- Ends the hero section -->
 
-<a href="Contact.html" class="chat-icon" title="Chat with us">💬</a>
+<div class="container"> <!-- Starts a container for the cars listing -->
+  <h2>Top Rental Deals</h2> <!-- Subheading for the top rental deals -->
+  <div class="cars"> <!-- Starts a container for the individual car listings -->
+    
+    <!-- Car 1 -->
+    <div class="car"> <!-- Container for the first car -->
+      <img src="../images/audi a6.avif" alt="Audi A6"> <!-- Image of the Audi A6 -->
+      <h3>Audi A6</h3> <!-- Car name -->
+      <p>Business luxury for every occasion.</p> <!-- Short description of the car -->
+      <p><strong>€75/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the first car container -->
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>AOS.init();</script>
+    <!-- Car 2 -->
+    <div class="car"> <!-- Container for the second car -->
+      <img src="../images/toyota corolla.jpg" alt="Toyota Corolla"> <!-- Image of the Toyota Corolla -->
+      <h3>Toyota Corolla</h3> <!-- Car name -->
+      <p>Economical and reliable for city travel.</p> <!-- Short description of the car -->
+      <p><strong>€40/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the second car container -->
 
-</body>
-</html>
+    <!-- Car 3 -->
+    <div class="car"> <!-- Container for the third car -->
+      <img src="../images/range rover.avif" alt="Range Rover Evoque"> <!-- Image of the Range Rover Evoque -->
+      <h3>Range Rover Evoque</h3> <!-- Car name -->
+      <p>Premium SUV experience.</p> <!-- Short description of the car -->
+      <p><strong>€95/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the third car container -->
+
+    <!-- Car 4 -->
+    <div class="car"> <!-- Container for the fourth car -->
+      <img src="../images/tesla model 3.jpg" alt="Tesla Model 3"> <!-- Image of the Tesla Model 3 -->
+      <h3>Tesla Model 3</h3> <!-- Car name -->
+      <p>Silent and electric. Drive the future.</p> <!-- Short description of the car -->
+      <p><strong>€85/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the fourth car container -->
+
+    <!-- Car 5 -->
+    <div class="car"> <!-- Container for the fifth car -->
+      <img src="../images/ford focus.jpg" alt="Ford Focus"> <!-- Image of the Ford Focus -->
+      <h3>Ford Focus</h3> <!-- Car name -->
+      <p>Perfect for both city and countryside.</p> <!-- Short description of the car -->
+      <p><strong>€45/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the fifth car container -->
+
+    <!-- Car 6 -->
+    <div class="car"> <!-- Container for the sixth car -->
+      <img src="../images/Mercedes C-Class.jpg" alt="Mercedes C-Class"> <!-- Image of the Mercedes C-Class -->
+      <h3>Mercedes C-Class</h3> <!-- Car name -->
+      <p>Comfortable and elegant.</p> <!-- Short description of the car -->
+      <p><strong>€80/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the sixth car container -->
+
+    <!-- Car 7 -->
+    <div class="car"> <!-- Container for the seventh car -->
+      <img src="../images/Skoda Octavia.jpg" alt="Skoda Octavia"> <!-- Image of the Skoda Octavia -->
+      <h3>Skoda Octavia</h3> <!-- Car name -->
+      <p>Smart and efficient family car.</p> <!-- Short description of the car -->
+      <p><strong>€50/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the seventh car container -->
+
+    <!-- Car 8 -->
+    <div class="car"> <!-- Container for the eighth car -->
+      <img src="../images/BMW 3 Series.jpg" alt="BMW 3 Series"> <!-- Image of the BMW 3 Series -->
+      <h3>BMW 3 Series</h3> <!-- Car name -->
+      <p>Sporty, stylish and responsive.</p> <!-- Short description of the car -->
+      <p><strong>€88/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the eighth car container -->
+
+    <!-- Car 9 -->
+    <div class="car"> <!-- Container for the ninth car -->
+      <img src="../images/Jeep compass.jpg" alt="Jeep Compass"> <!-- Image of the Jeep Compass -->
+      <h3>Jeep Compass</h3> <!-- Car name -->
+      <p>Built for adventure and off-road trips.</p> <!-- Short description of the car -->
+      <p><strong>€70/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the ninth car container -->
+
+    <!-- Car 10 -->
+    <div class="car"> <!-- Container for the tenth car -->
+      <img src="../images/volvo xc90.avif" alt="Volvo XC90"> <!-- Image of the Volvo XC90 -->
+      <h3>Volvo XC90</h3> <!-- Car name -->
+      <p>Safe and luxurious family SUV.</p> <!-- Short description of the car -->
+      <p><strong>€100/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the tenth car container -->
+
+    <!-- Car 11 -->
+    <div class="car"> <!-- Container for the eleventh car -->
+      <img src="../images/mazda 6.jpg" alt="Mazda 6"> <!-- Image of the Mazda 6 -->
+      <h3>Mazda 6</h3> <!-- Car name -->
+      <p>Sporty, sleek and fun to drive.</p> <!-- Short description of the car -->
+      <p><strong>€60/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the eleventh car container -->
+
+    <!-- Car 12 -->
+    <div class="car"> <!-- Container for the twelfth car -->
+      <img src="../images/peugeot 3008.jpg" alt="Peugeot 3008"> <!-- Image of the Peugeot 3008 -->
+      <h3>Peugeot 3008</h3> <!-- Car name -->
+      <p>Stylish SUV with great fuel efficiency.</p> <!-- Short description of the car -->
+      <p><strong>€65/day</strong></p> <!-- Price per day -->
+      <a href="Reservation.html" class="btn">Rent Now</a> <!-- Button linking to the reservation page -->
+    </div> <!-- Ends the twelfth car container -->
+  </div> <!-- Ends the container for cars -->
+</div> <!-- Ends the main container -->
+
+<footer> <!-- Starts the footer section -->
+  <p>© 2025 Road Rush Rentals. All rights reserved.</p> <!-- Copyright information -->
+</footer> <!-- Ends the footer section -->
+
+<a href="Contact.html" class="chat-icon" title="Chat with us">💬</a> <!-- Chat icon link to the contact page -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- Links to the AOS (Animate On Scroll) JavaScript library -->
+<script>AOS.init();</script> <!-- Initializes the AOS library to enable animations on scroll -->
+
+</body> <!-- Ends the body section -->
+</html> <!-- Ends the HTML document -->

@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta tags for character set and responsive design -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- Title of the page displayed in the browser tab -->
   <title>Rent A Car Bulgaria | Road Rush Rentals</title>
+  
+  <!-- Link to the external CSS stylesheet -->
   <link rel="stylesheet" href="style/index.css">
+  
+  <!-- Link to the AOS (Animate on Scroll) CSS library for animations -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
+  <!-- Header section with logo and navigation -->
   <header class="sticky-header">
     <a href="index.html">
-      <img src="images/logo.png.jpg" alt="Road Rush Rentals Logo" class="logo">
+      <img src="images/logo.png.jpg" alt="Road Rush Rentals Logo" class="logo"> <!-- Logo image -->
     </a>
     <nav>
+      <!-- Navigation links -->
       <a href="index.html" class="active">Home</a>
       <a href="pages/Car.html">Cars</a>
       <a href="pages/Reservation.html">Reservation</a>
@@ -22,6 +31,7 @@
     </nav>
   </header>
 
+  <!-- Hero section with a background image and call to action -->
   <section class="hero">
     <div class="hero-content" data-aos="fade-up">
       <h1>Choose Your Car Today</h1>
@@ -30,6 +40,7 @@
     </div>
   </section>
 
+  <!-- Section displaying popular cars -->
   <section class="container" data-aos="fade-up">
     <h2>Popular Cars</h2>
     <div class="cars">
@@ -51,6 +62,7 @@
     </div>
   </section>
 
+  <!-- Featured car section with detailed description -->
   <section class="featured-car" data-aos="fade-right">
     <h2>🚗 Featured Car of the Month</h2>
     <div class="car-feature">
@@ -63,6 +75,7 @@
     </div>
   </section>
 
+  <!-- Customer testimonials section -->
   <section class="testimonials" data-aos="fade-up">
     <h2>What Our Customers Say</h2>
     <div class="testimonial-list">
@@ -76,24 +89,27 @@
       </div>
     </div>
   </section>
-    <section class="locations" data-aos="fade-up">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2922.646947469992!2d23.3218676!3d42.6977085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa857e4f0f8d2f%3A0x5b0efb3d5a08875!2sSofia%2C%20Bulgaria!5e0!3m2!1sen!2sbg!4v1614951585914!5m2!1sen!2sbg"></iframe>
-  <h2>📍 Our Offices</h2>
-  <p>We are proudly located in the following Bulgarian cities:</p>
-  <p>• Sofia</p>
-  <p>• Stara Zagora</p>
-  <p>• Burgas</p>
-  <p>• Varna</p>
-</section>
 
-    
+  <!-- Locations section with Google Maps iframe -->
+  <section class="locations" data-aos="fade-up">
+    <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> <!-- Google Map embed -->
+    <h2>📍 Our Offices</h2>
+    <p>We are proudly located in the following Bulgarian cities:</p>
+    <p>• Sofia</p>
+    <p>• Stara Zagora</p>
+    <p>• Burgas</p>
+    <p>• Varna</p>
+  </section>
+
+  <!-- Footer section -->
   <footer>
-
     <p>© 2025 Road Rush Rentals. All rights reserved.</p>
   </footer>
 
-
+  <!-- Link to the AOS (Animate on Scroll) JS library -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Initialize AOS animations -->
   <script>
     AOS.init();
   </script>
